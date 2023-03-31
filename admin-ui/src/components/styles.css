@@ -1,0 +1,17 @@
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+#search-bar {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px lightgray solid;
+  border-radius: 3px;
+}
+#search-bar:focus {
+  border: 2px lightgray solid !important;
+  border-radius: 10px !important;
+}

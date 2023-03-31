@@ -1,0 +1,43 @@
+.name,
+.email,
+.role {
+  background-color: inherit !important;
+  border: none !important;
+  font-size: 1.1rem;
+}
+.name:focus,
+.email:focus,
+.role:focus {
+  background-color: inherit !important;
+  border: none !important;
+}
+.head {
+
+  font-size: 1.3rem ;
+   color: black;
+}
+#actions button {
+  background-color: white !important;
+  border: none !important;
+}
+.icon,
+ .bi bi-trash{
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
+button:disabled {
+  opacity: 2.5;
+}
+thead > tr {
+  text-transform: capitalize;
+  background-color: white;
+}
+tr.selected {
+  background-color:grey;
+}
